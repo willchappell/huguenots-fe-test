@@ -1,0 +1,147 @@
+{
+    "funds": [
+        {
+            "fund_name": "JOHCM Asia ex Japan Fund",
+            "benchmark": "MSCI AC Asia ex Japan NR",
+            "domicile": "Dublin",
+            "domicile_full": "Dublin (Irish ICAV)",
+            "region": "Asia",
+            "holdings": "41",
+            "fund_size": "GBP 18.19m",
+            "launch_date": "30 Sep 2011",
+            "manager": "Ada Chan"
+        },
+        {
+            "fund_name": "JOHCM Asia ex Japan Small and Mid Cap Fund",
+            "benchmark": "MSCI AC Asia ex Japan Small Cap NR",
+            "domicile": "Dublin",
+            "domicile_full": "Dublin (Irish ICAV)",
+            "region": "Asia",
+            "holdings": "53",
+            "fund_size": "GBP 22.46m",
+            "launch_date": "30 Sep 2011",
+            "manager": "Cho-Yu Kooi"
+        },
+        {
+            "fund_name": "JOHCM Continental European Fund",
+            "benchmark": "MSCI Europe ex UK NR Index",
+            "domicile": "Dublin",
+            "domicile_full": "Dublin (Irish ICAV)",
+            "region": "Europe",
+            "holdings": "35",
+            "fund_size": "GBP 541.94m",
+            "launch_date": "05 Nov 2001",
+            "manager": "Luis Fananas"
+        },
+        {
+            "fund_name": "JOHCM European Select Values Fund",
+            "benchmark": "MSCI Europe NR Index",
+            "domicile": "Dublin",
+            "domicile_full": "Dublin (Irish ICAV)",
+            "region": "Europe",
+            "holdings": "38",
+            "fund_size": "GBP 200.74m",
+            "launch_date": "07 May 2003",
+            "manager": "Luis Fananas"
+        },
+        {
+            "fund_name": "JOHCM Global Emerging Markets Oppurtunities Fund",
+            "benchmark": "MSCI Emerging Markets NR",
+            "domicile": "Dublin",
+            "domicile_full": "Dublin (Irish ICAV)",
+            "region": "Emerging Markets",
+            "holdings": "49",
+            "fund_size": "GBP 199.03m",
+            "launch_date": "30 Jun 2011",
+            "manager": "Emery Brewer"
+        },
+        {
+            "fund_name": "JOHCM Global Oppurtunities Fund",
+            "benchmark": "MSCI AC World NR",
+            "domicile": "Dublin",
+            "domicile_full": "Dublin (Irish ICAV)",
+            "region": "Global",
+            "holdings": "40",
+            "fund_size": "GBP 568.94m",
+            "launch_date": "29 Jun 2012",
+            "manager": "Emery Brewer"
+        },
+        {
+            "fund_name": "JOHCM Global Oppurtunities Fund",
+            "benchmark": "MSCI AC World NR",
+            "domicile": "London",
+            "domicile_full": "London (UK OEIC)",
+            "region": "Global",
+            "holdings": "40",
+            "fund_size": "GBP 58.33m",
+            "launch_date": "03 May 2019",
+            "manager": "Luis Fananas"
+        },
+        {
+            "fund_name": "JOHCM Global Select Fund",
+            "benchmark": "MSCI AC World NR",
+            "domicile": "Dublin",
+            "domicile_full": "Dublin (Irish ICAV)",
+            "region": "Global",
+            "holdings": "40",
+            "fund_size": "GBP 1.23bn",
+            "launch_date": "30 Sep 2008",
+            "manager": "Vishal Bhatia"
+        },
+        {
+            "fund_name": "JOHCM UK Dynamic Fund",
+            "benchmark": "FTSE All-Share TR",
+            "domicile": "London",
+            "domicile_full": "London (UK OEIC)",
+            "region": "UK",
+            "holdings": "39",
+            "fund_size": "GBP 1.07bn",
+            "launch_date": "16 Jun 2008",
+            "manager": "Clive Beagles"
+        },
+        {
+            "fund_name": "JOHCM UK Dynamic Fund",
+            "benchmark": "FTSE All-Share TR",
+            "domicile": "Dublin",
+            "domicile_full": "Dublin (Irish ICAV)",
+            "region": "UK",
+            "holdings": "41",
+            "fund_size": "GBP 16.25m",
+            "launch_date": "27 Sep 2017",
+            "manager": "Clive Beagles"
+        },
+        {
+            "fund_name": "JOHCM UK Equity Income Fund",
+            "benchmark": "FTSE All-Share TR",
+            "domicile": "London",
+            "domicile_full": "London (UK OEIC)",
+            "region": "UK",
+            "holdings": "58",
+            "fund_size": "GBP 1.46bn",
+            "launch_date": "30 Nov 2004",
+            "manager": "Mark Costar"
+        },
+        {
+            "fund_name": "JOHCM UK Growth Fund",
+            "benchmark": "FTSE All-Share TR",
+            "domicile": "Dublin",
+            "domicile_full": "Dublin (Irish ICAV)",
+            "region": "UK",
+            "holdings": "51",
+            "fund_size": "GBP 150.74m",
+            "launch_date": "06 Nov 2001",
+            "manager": "Vishal Bhatia"
+        },
+        {
+            "fund_name": "JOHCM UK Oppurtunities Fund",
+            "benchmark": "FTSE All-Share TR",
+            "domicile": "London",
+            "domicile_full": "London (UK OEIC)",
+            "region": "UK",
+            "holdings": "28",
+            "fund_size": "GBP 128.50m",
+            "launch_date": "30 Nov 2005",
+            "manager": "Emery Brewer"
+        }
+    ]
+}

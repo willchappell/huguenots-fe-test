@@ -1,0 +1,81 @@
+a {
+    color: inherit;
+}
+
+.draw-hover {
+    position: relative;
+    transition: .5s all;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: $white;
+        transition: .5s all;
+    }
+    &:hover {
+        color: $white;
+        &::after {
+            width: 100%;
+        }
+    }
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    appearance: none;
+    border: none;
+    background: none;
+}
+
+main {
+    background-color: $main_grey;
+}
+
+.border-element {
+    height: 100%;
+    width: 1px;
+    background-color: $dark_grey;
+}
+
+.bottom-spacer {
+    height: 6rem;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+svg {
+    display: block;
+}
+
+.data {
+    font-size: 14px;
+    border-top: 1px solid $dark_grey;
+    padding-top: .5rem;
+}
+
+.manager-filter {
+    background-color: transparent;
+    color: $copy_grey;
+    display: block;
+    padding: 1rem;
+    font-family: tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: capitalize;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-right: .25rem;
+    transition: .5s all;
+    &:hover, &.is-active {
+        background-color: $clear_filters;
+        color: $white;
+    }
+}

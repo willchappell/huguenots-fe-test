@@ -1,0 +1,79 @@
+section.grid-view {
+    .fund-card {
+        .title-wrapper {
+            background-color: $blue;
+            padding: 1.25rem;
+            .heading-3 {
+                min-height: 75px;
+            }
+            .breadcrumb-text {
+                letter-spacing: .5px;
+            }
+        }
+        .fund-body {
+            border-left: 4px solid;
+            padding: 1.25rem;
+            background-color: $white;
+            .heading {
+                color: $copy_grey;
+                text-transform: uppercase;
+                font-family: tahoma, sans-serif;
+                font-size: 11px;
+                letter-spacing: 1px;
+                vertical-align: top;
+            }
+            .detail {
+                font-family: tahoma, sans-serif;
+                font-size: 12px;
+                color: $blue;
+            }
+            .links {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                a {
+                    color: $blue;
+                    font-family: tahoma, sans-serif;
+                    font-size: 11px;
+                    text-decoration: none;
+                    svg {
+                        width: 18px;
+                        height: auto;
+                        vertical-align: bottom;
+                        display: inline-block;
+                    }
+                }
+                button {
+                    padding: .5rem;
+                    border: 1px solid rgba($teal, .4);
+                    border-radius: 50%;
+                    transition: .5s all;
+                    svg {
+                        display: block;
+                        width: 18px;
+                        height: auto;
+                    }
+                    &:hover {
+                        border: 1px solid $teal;
+                    }
+                }
+            }
+
+            &.region-asia {
+                border-left-color: $asia;
+            }
+            &.region-europe {
+                border-left-color: $europe;
+            }
+            &.region-emerging {
+                border-left-color: $teal;
+            }
+            &.region-global {
+                border-left-color: $global;
+            }
+            &.region-uk {
+                border-left-color: $uk;
+            }
+        }
+    }
+}

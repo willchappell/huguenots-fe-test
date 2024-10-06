@@ -1,0 +1,39 @@
+.breadcrumb-text {
+    font-family: tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.heading-1 {
+    font-family: cambria, serif;
+    font-size: 48px;
+    @media (max-width: 767px) {
+        font-size: 42px;
+    }
+}
+
+.heading-2 {
+    font-family: cambria, serif;
+    font-size: 32px;
+}
+
+.heading-3 {
+    font-family: cambria, serif;
+    font-size: 22px;
+}
+
+p, .body-copy {
+    font-family: tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.stand {
+    font-family: cambria, serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.small {
+    font-family: tahoma, sans-serif;
+    font-size: 12px;
+}

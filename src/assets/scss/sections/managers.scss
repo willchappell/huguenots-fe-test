@@ -1,0 +1,75 @@
+section.managers {
+    border-bottom: 1px solid $dark_grey;
+    nav.managers {
+        display: flex;
+        align-items: center;
+        .filters {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            @media (max-width: 1599px) {
+                max-width: 900px;
+                overflow: hidden;
+            }
+            button {
+                flex-shrink: 0;
+            }
+        }
+    }
+    .manager-cards {
+        display: flex;
+        position: relative;
+        .manager-card {
+            background-color: $white;
+            flex-grow: 1;
+            padding: 1.25rem;
+            margin-right: 1.25rem;
+            border-left: 4px solid;
+            border-top: 1px solid transparent;
+            border-right: 1px solid transparent;
+            border-bottom: 1px solid transparent;
+            width: 100%;
+            box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: .5s all;
+            &.region-asian {
+                border-color: $asia;
+            }
+            &.region-european {
+                border-color: $europe;
+            }
+            &.region-emerging {
+                border-color: $teal;
+            }
+            &.region-global {
+                border-color: $global;
+            }
+            &.region-uk {
+                border-color: $uk;
+            }
+            &:not(.is-active) {
+                border-top-color: transparent;
+                border-right-color: transparent;
+                border-bottom-color: transparent;
+            }
+        }
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 15%;
+            height: 100%;
+            background: linear-gradient(90deg, rgba(240,238,235,0) 0%, rgba(240,238,235,1) 90%);
+        }
+    }
+    .selected-managers {
+        border-top: 1px solid $dark_grey;
+        display: flex;
+        align-items: center;
+        .managers-buttons {
+            display: flex;
+        }
+    }
+}

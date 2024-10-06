@@ -1,0 +1,99 @@
+table.list-view {
+    th {
+        @extend .stand;
+        background-color: transparent;
+        border-bottom: 1px solid $dark_grey;
+        padding-top: 0;
+        &:nth-of-type(2), &:nth-of-type(6) {
+            @media (max-width: 1199px) {
+                display: none;
+            }
+        }
+        &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5) {
+            @media (max-width: 575px) {
+                display: none;
+            }
+        }
+    }
+    .spacer {
+        height: 1rem;
+    }
+    tbody {
+        .fund {
+            &:hover {
+                box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.1);
+                cursor: pointer;
+                td button.view-fund {
+                    border: 1px solid rgba($teal, 1);
+                }
+            }
+            &::after {
+                content: '';
+                display: block;
+            }
+        }
+        td {
+            @extend .body-copy;
+            @extend .colour-blue;
+            font-size: 14px;
+            border-bottom: none;
+            padding: 1.25rem .5rem;
+            vertical-align: middle;
+            &:nth-of-type(2), &:nth-of-type(6) {
+                @media (max-width: 1199px) {
+                    display: none;
+                }
+            }
+            &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5) {
+                @media (max-width: 575px) {
+                    display: none;
+                }
+            }
+            &:first-of-type {
+                border-left: 4px solid;
+                padding-left: 1rem;
+                font-family: cambria, serif;
+                font-size: 20px;
+                line-height: 1.2;
+                @media (min-width: 1600px) {
+                    min-width: 530px;
+                }
+                @media (max-width: 767px) {
+                    font-size: 18px;
+                }
+                span {
+                    @extend .body-copy;
+                    color: $copy_grey;
+                    font-size: 14px;
+                }
+            }
+            &.region-asia {
+                border-left-color: $asia;
+            }
+            &.region-europe {
+                border-left-color: $europe;
+            }
+            &.region-emerging {
+                border-left-color: $teal;
+            }
+            &.region-global {
+                border-left-color: $global;
+            }
+            &.region-uk {
+                border-left-color: $uk;
+            }
+
+            button.view-fund {
+                border: 1px solid rgba($teal, .4);
+                border-radius: 50%;
+                padding: .5rem;
+                transition: .5s all;
+                svg {
+                    width: 18px;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+}
